@@ -1,10 +1,29 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import {
+  useFonts,
+  Overpass_300Light,
+  Overpass_400Regular,
+  Overpass_600SemiBold,
+  Overpass_700Bold
+} from '@expo-google-fonts/overpass'
+
 export default function App() {
+  const [fontsLoaded] = useFonts({
+    Overpass_300Light,
+    Overpass_400Regular,
+    Overpass_600SemiBold,
+    Overpass_700Bold
+  });
+
+  if (!fontsLoaded) {
+    return;
+  }
+
   return (
     <View style={styles.container}>
-      <Text>Hello There My Old Friend</Text>
+      <Text style={styles.text}>Find Weather!</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -17,4 +36,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  text: {
+    fontFamily: 'Overpass_300Light',
+    fontSize: 20,
+  }
 });
