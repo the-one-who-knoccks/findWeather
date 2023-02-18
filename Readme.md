@@ -5,8 +5,11 @@
 
 Este projeto foi criado para desafiar desenvolvedores(as) que desejam colocar em prática o conhecimento adquirido nos estudos das tecnologias mobile híbrido com React Native e Expo. 
 
-## :construction_worker: Dia 1
+## :construction_worker: Dia 2
 Projeto em andamento....
+
+
+<img width="840" alt="Walkthrough" src="https://ik.imagekit.io/hld13bjzb1/1676680929980__Sss2xcee.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676681078506"/>
 
 ## :cloud_with_lightning_and_rain: Sobre o projeto
 
