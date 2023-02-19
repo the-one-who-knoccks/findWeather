@@ -5,7 +5,7 @@
 
 Este projeto foi criado para desafiar desenvolvedores(as) que desejam colocar em prática o conhecimento adquirido nos estudos das tecnologias mobile híbrido com React Native e Expo. 
 
-## :construction_worker: Dia 2
+## :construction_worker: Dia 3
 Projeto em andamento....
 
 
