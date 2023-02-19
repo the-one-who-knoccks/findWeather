@@ -9,7 +9,14 @@ Este projeto foi criado para desafiar desenvolvedores(as) que desejam colocar em
 Projeto em andamento....
 
 
-<img width="540"  alt="Walkthrough" src="https://ik.imagekit.io/hld13bjzb1/1676680929980__Sss2xcee.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676681078506"/>
+<img width="540"   alt="Walkthrough" src="https://ik.imagekit.io/hld13bjzb1/1676680929980__Sss2xcee.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676681078506"/>
+
+
+<img width="540"   alt="Walkthrough" src="https://ik.imagekit.io/hld13bjzb1/findWeather_Screens/1676816997911_UobVkHQzBH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676817096275"/>
+
+<img width="540"   alt="Walkthrough" src="https://ik.imagekit.io/hld13bjzb1/findWeather_Screens/1676816997881_QP0k6ZxTpZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676817096525"/>
+
+
 
 ## :cloud_with_lightning_and_rain: Sobre o projeto
 

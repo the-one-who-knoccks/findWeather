@@ -7,7 +7,7 @@ const Container = styled.ScrollView.attrs<ScrollViewProps>(() => ({
 }))`
   flex: 1;
   background-color: ${theme.colors.dark};
-  padding: 50px 16px;
+  padding: 16px;
 `;
 
 const ContainerImage = styled.View`
