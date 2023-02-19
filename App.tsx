@@ -6,7 +6,8 @@ import {
   Overpass_600SemiBold,
   Overpass_700Bold
 } from '@expo-google-fonts/overpass'
-import Welcome from './src/screens/Welcome';
+
+import Routes from './src/routes';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -23,8 +24,7 @@ export default function App() {
   return (
     <>
     <StatusBar style="light"/>
-
-    <Welcome />
+    <Routes />
     </>
   );
 }
