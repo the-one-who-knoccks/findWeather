@@ -19,6 +19,17 @@ import WindMiniaturePNG from "../../assets/wind-miniature.png";
 import RainingCloudPNG from "../../assets/raining-cloud-miniature.png";
 import ClimateChangePNG from "../../assets/climate-change.png";
 
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { IStackRoutes } from "../../routes/stack.routes";
+
+
+type HomeScreenNavigationProp = NativeStackNavigationProp<IStackRoutes, "Home">;
+
+type Props = {
+  navigation: HomeScreenNavigationProp;
+};
+
+
 const dataWeatherInfo = [
   {
     id: 1,
@@ -72,7 +83,7 @@ const dataCardTimeTemperature = [
   },
 ];
 
-const EmptyStateContent = () => {
+const EmptyStateContent = ({ navigation } : Props) => {
   return (
     <Styled.Container>
       <Styled.ContainerEmptyState>
@@ -99,7 +110,7 @@ const EmptyStateContent = () => {
 
         <Divider top={100} />
 
-        <TouchableOpacity onPress={() => {}} activeOpacity={0.75}>
+        <TouchableOpacity onPress={() => navigation.navigate("Search")} activeOpacity={0.75}>
           <Text
             fontFamily={theme.fontFamily.OverpassRegular}
             fontSize={theme.fontSize.md22}
@@ -216,10 +227,10 @@ const FullContent = () => (
   </>
 );
 
-const Home = (): JSX.Element => {
+const Home = ({ navigation }: Props): JSX.Element => {
   return (
     <Styled.ScrollView>
-      <FullContent />
+      <EmptyStateContent navigation={navigation} />
     </Styled.ScrollView>
   );
 };
