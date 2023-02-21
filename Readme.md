@@ -14,7 +14,7 @@ Projeto em andamento....
 
 <img width="540"   alt="Walkthrough" src="https://ik.imagekit.io/hld13bjzb1/findWeather_Screens/1676816997911_UobVkHQzBH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676817096275"/>
 
-<img width="540"   alt="Walkthrough" src="https://ik.imagekit.io/hld13bjzb1/findWeather_Screens/1676816997881_QP0k6ZxTpZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676817096525"/>
+<img width="540"   alt="Walkthrough" src="https://ik.imagekit.io/hld13bjzb1/findWeather_Screens/2023-02-20-23-39-07-848_R6O9z_qfX.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676947277166"/>
 
 
 
